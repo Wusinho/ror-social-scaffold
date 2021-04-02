@@ -34,7 +34,8 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap', '~> 4.6'
-  gem 'rubocop'
+  gem 'rubocop', '~>0.81.0'
+gem 'hirb', '~> 0.7.3'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
