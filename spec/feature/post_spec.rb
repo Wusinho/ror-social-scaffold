@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe 'create new post', type: :feature do
   scenario 'Create post with information' do
     visit new_user_registration_path
-    fill_in 'Name', with: 'gustavo'
-    fill_in 'Email', with: 'gustavo@email.com'
+    fill_in 'Name', with: 'Wisin'
+    fill_in 'Email', with: 'Wisin@email.com'
     fill_in 'Password', with: '123456'
     fill_in 'Password confirmation', with: '123456'
     click_on 'Sign up'
@@ -17,8 +17,8 @@ RSpec.describe 'create new post', type: :feature do
 
   scenario 'Create post without information' do
     visit new_user_registration_path
-    fill_in 'Name', with: 'gustavo'
-    fill_in 'Email', with: 'gustavo@email.com'
+    fill_in 'Name', with: 'Wisin'
+    fill_in 'Email', with: 'Wisin@email.com'
     fill_in 'Password', with: '123456'
     fill_in 'Password confirmation', with: '123456'
     click_on 'Sign up'
