@@ -38,6 +38,6 @@ RSpec.describe 'create new user', type: :feature do
     click_on 'Log in'
     click_on 'All users'
     click_on 'Accept Friendship'
-    expect(page).to have_css("button")
+    expect(page).to have_css('button')
   end
 end
