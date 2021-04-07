@@ -20,6 +20,7 @@ To get a local copy up and running follow these simple example steps.
 - Ruby: 2.6.3
 - Rails: 5.2.3
 - Postgres: >=9.5
+- bundle exec rspec
 - mini_racer #optional
 
 ### Setup
@@ -70,7 +71,10 @@ TBA
 
 ## Authors
 
-TBA
+👤 **Heber Lazo**
+
+- Github: [@Wusinho](https://github.com/Wusinho)
+- LinkedIn: [Heber Lazo](https://www.linkedin.com/in/heber-lazo-benza-523266133/)
 
 ## 🤝 Contributing
 
